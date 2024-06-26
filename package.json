@@ -1,0 +1,19 @@
+{
+  "name": "my-anime-iceberg",
+  "version": "1.0.0",
+  "description": "Generates an iceberg based off of a user's myanimelist.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tevin-takata/my-anime-iceberg.git"
+  },
+  "author": "Tevin Takata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tevin-takata/my-anime-iceberg/issues"
+  },
+  "homepage": "https://github.com/tevin-takata/my-anime-iceberg#readme"
+}
