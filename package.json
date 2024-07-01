@@ -1,31 +1,28 @@
 {
   "name": "my-anime-iceberg",
-  "version": "1.0.0",
-  "description": "A JavaScript project",
-  "main": "./dist/index.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev:watch": "node ./node_modules/parcel-bundler/bin/cli watch ./src/index.js --target node",
-    "dev:hot-reload": "node ./node_modules/nodemon/bin/nodemon --watch ./dist/ ./dist/index.js",
-    "start": "node ./node_modules/npm-run-all/bin/npm-run-all -p -r dev:watch dev:hot-reload",
-    "build": "node ./node_modules/parcel-bundler/bin/cli build ./src/index.js --target node --out-dir ./dist/",
-    "lint": "node ./node_modules/eslint/bin/eslint . --ext .js --fix"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2"
+    "@eslint/config-array": "^0.17.0",
+    "@eslint/object-schema": "^2.1.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^8.57.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.29.1",
-    "nodemon": "^3.1.4",
-    "npm-run-all": "^4.1.5",
-    "parcel-bundler": "^1.12.5"
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "vite": "^5.3.1"
   }
 }
