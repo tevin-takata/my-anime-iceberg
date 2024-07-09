@@ -1,17 +1,19 @@
+import { Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Home from './Home';
 import './App.css'
 
 export default function App() {
   return (
     <>
       <div>
-        <h1>MyAnimeIceberg</h1>
-        <h2 style={{ marginBottom: '2em' }}>How Deep Do Your Anime Preferences Go?</h2>
-        <button style={{ marginBottom: '5em'}}>
-          Log in with MyAnimeList
-        </button>
+        <Navbar/>
+        <Routes>
+          <Route exact path="/" element={<Home/>} />
+        </Routes>
+        <Footer/>
       </div>
-      <Footer/>
     </>
   )
 }

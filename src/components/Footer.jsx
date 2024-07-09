@@ -3,7 +3,7 @@ import '../App.css'
 export default function Footer() {
   return (
     <>
-      <div>
+      <div className="footer">
         <p>
           Made by <a href='https://tevin-takata.github.io/'>Tevin Takata</a>
         </p>

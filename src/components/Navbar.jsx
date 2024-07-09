@@ -1,11 +1,23 @@
-import '../App.css'
+import './Navbar.css'
 
 export default function Navbar() {
   return (
     <>
-      <Navbar>
-
-      </Navbar>
+      <nav>
+        <div className="container-fluid">
+          <ul>
+            <li>
+              Home
+            </li>
+            <li>
+              About
+            </li>
+            <li>
+              Privacy Policy
+            </li>
+          </ul>
+        </div>
+      </nav>
     </>
   )
 }

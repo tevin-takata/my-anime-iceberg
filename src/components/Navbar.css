@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  margin: 0
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.25em;
+}
+
+nav ul li:hover {
+  cursor: default;
+  color: #2F52A2;
+}
