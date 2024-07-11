@@ -1,9 +1,13 @@
 nav {
+  position: fixed;
+  top: 0px;
+  right: 1rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 1rem;
-  margin: 0
+  margin: 0;
+  text-decoration: none;
 }
 
 ul {
@@ -13,7 +17,16 @@ ul {
   font-size: 1.25em;
 }
 
-nav ul li:hover {
+li a:link {
+  text-decoration: none;
+}
+
+li a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+li a:hover {
   cursor: default;
   color: #2F52A2;
 }

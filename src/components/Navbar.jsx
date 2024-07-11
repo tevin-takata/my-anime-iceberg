@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 export default function Navbar() {
@@ -6,15 +7,9 @@ export default function Navbar() {
       <nav>
         <div className="container-fluid">
           <ul>
-            <li>
-              Home
-            </li>
-            <li>
-              About
-            </li>
-            <li>
-              Privacy Policy
-            </li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/aboutme">About</Link></li>
+            <li><Link>Privacy Policy</Link></li>
           </ul>
         </div>
       </nav>
