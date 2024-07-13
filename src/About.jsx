@@ -1,6 +1,6 @@
-import './AboutMe.css'
+import './About.css'
 
-export default function AboutMe() {
+export default function About() {
   return (
     <>
       <div>

@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './Home';
-import AboutMe from './AboutMe';
+import About from './About';
 import './App.css'
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
         <Navbar/>
         <Routes>
           <Route exact path="/" element={<Home/>} />
-          <Route path="/aboutme" element={<AboutMe/>} />
+          <Route path="/about" element={<About/>} />
         </Routes>
         <Footer/>
       </div>
