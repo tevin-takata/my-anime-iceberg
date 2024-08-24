@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import './App.css'
+import '../App.css'
 import Iceberg from './Iceberg';
 
 export default function Home() {
